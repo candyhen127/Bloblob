@@ -1,4 +1,8 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class BlobGun : MonoBehaviour
 {
@@ -29,11 +33,18 @@ public class BlobGun : MonoBehaviour
 
     [SerializeField] 
     private int ammo;
+    [SerializeField]
+    private int maxAmmo;
+    [SerializeField]
+    TextMeshProUGUI ammoCounter;
+
+    [SerializeField]
+    private List<GameObject> shotBlobs;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        ammo = maxAmmo;
     }
 
     // Update is called once per frame
@@ -58,6 +69,13 @@ public class BlobGun : MonoBehaviour
                 shoot();
             }
         }
+        if(Input.GetKeyDown("r")) {
+            foreach(GameObject b in shotBlobs) {
+                Destroy(b);
+            }
+            ammo = maxAmmo;
+        }
+        ammoCounter.text = ammo.ToString() + "/" + maxAmmo.ToString();
     }
 
     void FixedUpdate()
@@ -85,5 +103,7 @@ public class BlobGun : MonoBehaviour
     void shoot() {
         GameObject blob = Instantiate(bulletPrefab, shootPoint.position, shootPoint.rotation);
         blob.GetComponent<Rigidbody2D>().linearVelocity = shootPoint.up * 10;
+        shotBlobs.Add(blob);
+        ammo--;
     }
 }

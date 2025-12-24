@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.UI;
+using TMPro;
 
 public class PressurePlate : MonoBehaviour
 {
@@ -80,7 +82,7 @@ public class PressurePlate : MonoBehaviour
     }
     */
 
-     [SerializeField]
+    [SerializeField]
     float massRequired = 100; //Mass required to activate button
     [SerializeField]
     float initialCastDistance = 0.2f; //Initial Check distance for first object on the button
@@ -93,13 +95,40 @@ public class PressurePlate : MonoBehaviour
     [SerializeField] float totalMass; //Sum of masses of all placed objects
     Vector2 halfExtents; //The size of the button collider used for boxcasting
     float distanceFromTheTop; //highest point in the stack
+    bool isActivated;
+
+    [SerializeField] TextMeshProUGUI weightCounter;
+
+    
+    [SerializeField] UnityEvent onPlateActivated; // Events to trigger when activated
+    [SerializeField] UnityEvent onPlateDeactivated; // Events to trigger when deactivated
 
     private void Awake()
     {
         Vector2 extents = GetComponent<BoxCollider2D>().bounds.extents;
         halfExtents = new Vector2(extents.x+1, extents.y);
     }
+
+    void Update() {
+        weightCounter.text = ((int) totalMass).ToString() + "/" + ((int)massRequired).ToString();
+    }
     
+    void FixedUpdate()
+    {
+        if (totalMass >= massRequired && !isActivated)
+        {
+            isActivated = true;
+            Debug.Log("Pressure Plate ON! Total Mass: " + totalMass);
+            onPlateActivated.Invoke(); // Trigger Unity events for activation
+        }
+        else if (totalMass < massRequired && isActivated)
+        {
+            isActivated = false;
+            Debug.Log("Pressure Plate OFF! Total Mass: " + totalMass);
+            onPlateDeactivated.Invoke(); // Trigger Unity events for deactivation
+        }
+    }
+
     void OnCollisionStay2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Player" || collision.gameObject.tag == "Blob")
@@ -115,6 +144,10 @@ public class PressurePlate : MonoBehaviour
                 Debug.Log("Button is OFF");
             }
         }
+    }
+
+    void OnCollisionExit2D() {
+        CheckTotalMass();
     }
 
     void CheckTotalMass()
