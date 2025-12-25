@@ -20,6 +20,7 @@ public class PlayerMovement : MonoBehaviour
     public Transform groundCheck;
     public float groundCheckRadius = 0.05f;
     public LayerMask groundLayer;
+    public LayerMask blobLayer;
     public Transform wallCheck;
     public float wallCheckDistance = 0.05f;
 
@@ -45,7 +46,7 @@ public class PlayerMovement : MonoBehaviour
         move = Input.GetAxisRaw("Horizontal");
 
         // ground check
-        isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
+        isGrounded = (Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer) || Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, blobLayer));
 
         // update coyote time counter
         if (isGrounded)

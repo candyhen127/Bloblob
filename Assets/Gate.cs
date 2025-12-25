@@ -31,9 +31,9 @@ public class Gate : MonoBehaviour
     }
 
     public void toRotationCW(float z) {
-        rottemp = t.rotation;
-        rottemp.z = z;
-        t.rotation = rottemp;
+        temp = transform.eulerAngles;
+        temp.z = z; // Set the Y-axis rotation to 90 degrees
+        transform.rotation = Quaternion.Euler(temp); 
     }
 
     void toRotationCCW(float z) {
