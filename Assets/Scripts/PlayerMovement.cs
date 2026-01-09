@@ -9,7 +9,7 @@ public class PlayerMovement : MonoBehaviour
 
     [Header("Jump")]
     public float jumpHeight = 3f;         // max jump height in Unity units
-    public float coyoteTime = 0.1f;       // grace period after leaving ground
+    public float coyoteTime = 0.5f;       // grace period after leaving ground
     public float jumpCutMultiplier = 0.5f; // short hop multiplier
 
     [Header("Gravity")]
@@ -62,7 +62,7 @@ public class PlayerMovement : MonoBehaviour
         bool jumpPressed = Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.W);
         bool jumpReleased = Input.GetKeyUp(KeyCode.Space) || Input.GetKeyUp(KeyCode.W);
 
-        if (jumpPressed && coyoteTimeCounter > 0f && rb.linearVelocity.y <= 0f)
+        if (jumpPressed && coyoteTimeCounter > 0f && rb.linearVelocity.y == 0f)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
             coyoteTimeCounter = 0f;
