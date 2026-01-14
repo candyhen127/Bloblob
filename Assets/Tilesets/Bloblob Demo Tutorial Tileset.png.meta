@@ -1,0 +1,1489 @@
+fileFormatVersion: 2
+guid: 88ea710771b5e714492f93766f881f6c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7721174706742458586
+    second: Bloblob Demo Tutorial Tileset_0
+  - first:
+      213: -8574140509141956600
+    second: Bloblob Demo Tutorial Tileset_1
+  - first:
+      213: -7520873803748757780
+    second: Bloblob Demo Tutorial Tileset_2
+  - first:
+      213: -6673162381125802609
+    second: Bloblob Demo Tutorial Tileset_3
+  - first:
+      213: -2897248211017570868
+    second: Bloblob Demo Tutorial Tileset_4
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bloblob Demo Tutorial Tileset_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 172
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad87d1cbc7f172b60800000000000000
+      internalID: 7721174706742458586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloblob Demo Tutorial Tileset_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 172
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8088e4a72a8820980800000000000000
+      internalID: -8574140509141956600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloblob Demo Tutorial Tileset_2
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 172
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceea30f6f1d70a790800000000000000
+      internalID: -7520873803748757780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloblob Demo Tutorial Tileset_3
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 172
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f852f789b2a2463a0800000000000000
+      internalID: -6673162381125802609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloblob Demo Tutorial Tileset_4
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 172
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc569243a18eac7d0800000000000000
+      internalID: -2897248211017570868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloblob Demo Tutorial Tileset_5
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 172
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0116f98fa32089b4b965ff86e2d37af3
+      internalID: 192122763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloblob Demo Tutorial Tileset_6
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 172
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55b39df8feac8574c8f4b61dbc73a9d9
+      internalID: -1031826071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloblob Demo Tutorial Tileset_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 172
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e9cbfc7a96fb054292c735923fac645
+      internalID: 2099819128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloblob Demo Tutorial Tileset_8
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 172
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13564761a68b1cc4fbdf6b5113bc4ff5
+      internalID: -1811753035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloblob Demo Tutorial Tileset_9
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 172
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0f5e929850e54a438248d64a8424dd0
+      internalID: 1580441026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloblob Demo Tutorial Tileset_10
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 164
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d062d74880afde849b4557ba94e2a1bf
+      internalID: -1499638067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloblob Demo Tutorial Tileset_11
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 164
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb88b688908746942be093f23f595936
+      internalID: 51901871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloblob Demo Tutorial Tileset_12
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 164
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34ae157b7dec84644acd96fa173825a0
+      internalID: 394686133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloblob Demo Tutorial Tileset_13
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 164
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfa74baa24fd1bc43814f58e504c6048
+      internalID: 1605957527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloblob Demo Tutorial Tileset_14
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 164
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bbc0b64083ecc04798ea3899a1a5406
+      internalID: 426113617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloblob Demo Tutorial Tileset_15
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 164
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 819332492972dc84f9a75e69a0562b0a
+      internalID: 1364845971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloblob Demo Tutorial Tileset_16
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 164
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d36e51d50c079a34095b4140d4514a21
+      internalID: 1456569180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloblob Demo Tutorial Tileset_17
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 164
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b20e5b74944ad6428f19831f36de762
+      internalID: 1958646050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloblob Demo Tutorial Tileset_18
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 164
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22dd8becf55e4fc41bd622d8469757c8
+      internalID: 1349399604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloblob Demo Tutorial Tileset_19
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 164
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aec6eb5917350345a08ef5f00fa2d34
+      internalID: 367021504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloblob Demo Tutorial Tileset_20
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 164
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6f1f63257b0c974a89249fe605b1268
+      internalID: -673415742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloblob Demo Tutorial Tileset_21
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 164
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4524bd6335ab0048a564b9b23eae7ba
+      internalID: 1696764067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloblob Demo Tutorial Tileset_22
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 164
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c94e1a31ead7a2f429b7384dcb84ad2f
+      internalID: -2129444972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloblob Demo Tutorial Tileset_23
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 164
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ff02fd31732f547a685d0b6a038596
+      internalID: 1029382852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloblob Demo Tutorial Tileset_24
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 164
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3565eec63b51754585e13628c6e9347
+      internalID: 1188629308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloblob Demo Tutorial Tileset_25
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 156
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89c830d3b9911954a9ca0c053d4326bf
+      internalID: 1612845674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloblob Demo Tutorial Tileset_26
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 156
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18feda594ad77a2458834ea722c3f6e8
+      internalID: -1363839118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloblob Demo Tutorial Tileset_27
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 156
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f7b25a01e3491e438928fa9014530b3
+      internalID: 1838836140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloblob Demo Tutorial Tileset_28
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 156
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c8ea62e4f9c38e46a27907b5f2d3c81
+      internalID: -1287690470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloblob Demo Tutorial Tileset_29
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 156
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4f2085493831ea439064190c0ae35c1
+      internalID: 325870597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloblob Demo Tutorial Tileset_30
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 156
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cba075aa1d4f2441a59c141bb4d41ec
+      internalID: 1744768865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloblob Demo Tutorial Tileset_31
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 156
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2a8dea744941f044ba028792efb2219
+      internalID: -358203109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloblob Demo Tutorial Tileset_32
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 156
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8962420a684ee2d489350f18e5245fcd
+      internalID: 473074424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloblob Demo Tutorial Tileset_33
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 156
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96d248f42f7db424f80be70952b0eba1
+      internalID: 264214849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloblob Demo Tutorial Tileset_34
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 156
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 016c9e25e49d39e4f953d7ce30ee66b9
+      internalID: -1530279866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloblob Demo Tutorial Tileset_35
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 156
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eb10b5445f94cf43a06610f071d8cbc
+      internalID: -1120089043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloblob Demo Tutorial Tileset_36
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 156
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cea86dc4c731fec40aaaad7cbb54b089
+      internalID: 144296987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloblob Demo Tutorial Tileset_37
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 156
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd72249a57dc77f4ba92f36e6a9a462f
+      internalID: 678823536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloblob Demo Tutorial Tileset_38
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 156
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9067f766116b0d74ba78e4230b9b4a42
+      internalID: -1761475837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloblob Demo Tutorial Tileset_39
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 148
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1db77f3b3fcf8134690dabe8d0b529c3
+      internalID: -630967923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloblob Demo Tutorial Tileset_40
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 148
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21092170de3d54342bb7d3dd37e824a3
+      internalID: 1998186918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloblob Demo Tutorial Tileset_41
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 148
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2449d99a50b58f741996c5dc18d878d4
+      internalID: -973972389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloblob Demo Tutorial Tileset_42
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 148
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12521142de6452d469d05e0a555de994
+      internalID: 2024676875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloblob Demo Tutorial Tileset_43
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 148
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 002ccad8eac000a4c9e2efb68db3dd30
+      internalID: 1137625114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloblob Demo Tutorial Tileset_44
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 148
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d00b22b1167f5c4a9293919855bb7c4
+      internalID: -465672845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloblob Demo Tutorial Tileset_45
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 148
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59d1370b4c1ef6a4189145ae7754749d
+      internalID: 1508310503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloblob Demo Tutorial Tileset_46
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 148
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 919a04587e3eb504f89df62b4150608c
+      internalID: 1592870437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloblob Demo Tutorial Tileset_47
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 148
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a956bb0a3de5294286e95e411b87118
+      internalID: -1932508287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloblob Demo Tutorial Tileset_48
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 148
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a375ab3d0ccf1d14bb88a268d1e9a840
+      internalID: -1308390688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloblob Demo Tutorial Tileset_49
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 140
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a851f5fa03167524788fa5dcbe6ccde5
+      internalID: 1707564482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloblob Demo Tutorial Tileset_50
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 140
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af642bd1e4ed4b742aaf3dfecabb29b6
+      internalID: 596556346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloblob Demo Tutorial Tileset_51
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 140
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a1398cc32b9b2c47ad2357ba4840a34
+      internalID: 328155287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloblob Demo Tutorial Tileset_52
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 140
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b31d233e9de48a84dbdd4252d6f4a6f1
+      internalID: 325914202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloblob Demo Tutorial Tileset_53
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 140
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06c4f4b19d42fe1439b92a99dc879b34
+      internalID: 698294451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloblob Demo Tutorial Tileset_54
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 140
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 889626c98d327314f81e5dac50b45a10
+      internalID: 144037238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloblob Demo Tutorial Tileset_55
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 140
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9b984af629630d43b21cc45289de7d3
+      internalID: 677451928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloblob Demo Tutorial Tileset_56
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 140
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 234a1642e04072f4aa8c09b43a8bc0f0
+      internalID: 208959269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloblob Demo Tutorial Tileset_57
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 140
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c10ce7b4c63891944bcc22fe3577f6ba
+      internalID: 447331447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloblob Demo Tutorial Tileset_58
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 140
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a504db0eac5a47b43937ab467e7c0e65
+      internalID: 392147592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b590224afa6a3db4aa14e3ee9090ef21
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Bloblob Demo Tutorial Tileset_0: 7721174706742458586
+      Bloblob Demo Tutorial Tileset_1: -8574140509141956600
+      Bloblob Demo Tutorial Tileset_10: -1499638067
+      Bloblob Demo Tutorial Tileset_11: 51901871
+      Bloblob Demo Tutorial Tileset_12: 394686133
+      Bloblob Demo Tutorial Tileset_13: 1605957527
+      Bloblob Demo Tutorial Tileset_14: 426113617
+      Bloblob Demo Tutorial Tileset_15: 1364845971
+      Bloblob Demo Tutorial Tileset_16: 1456569180
+      Bloblob Demo Tutorial Tileset_17: 1958646050
+      Bloblob Demo Tutorial Tileset_18: 1349399604
+      Bloblob Demo Tutorial Tileset_19: 367021504
+      Bloblob Demo Tutorial Tileset_2: -7520873803748757780
+      Bloblob Demo Tutorial Tileset_20: -673415742
+      Bloblob Demo Tutorial Tileset_21: 1696764067
+      Bloblob Demo Tutorial Tileset_22: -2129444972
+      Bloblob Demo Tutorial Tileset_23: 1029382852
+      Bloblob Demo Tutorial Tileset_24: 1188629308
+      Bloblob Demo Tutorial Tileset_25: 1612845674
+      Bloblob Demo Tutorial Tileset_26: -1363839118
+      Bloblob Demo Tutorial Tileset_27: 1838836140
+      Bloblob Demo Tutorial Tileset_28: -1287690470
+      Bloblob Demo Tutorial Tileset_29: 325870597
+      Bloblob Demo Tutorial Tileset_3: -6673162381125802609
+      Bloblob Demo Tutorial Tileset_30: 1744768865
+      Bloblob Demo Tutorial Tileset_31: -358203109
+      Bloblob Demo Tutorial Tileset_32: 473074424
+      Bloblob Demo Tutorial Tileset_33: 264214849
+      Bloblob Demo Tutorial Tileset_34: -1530279866
+      Bloblob Demo Tutorial Tileset_35: -1120089043
+      Bloblob Demo Tutorial Tileset_36: 144296987
+      Bloblob Demo Tutorial Tileset_37: 678823536
+      Bloblob Demo Tutorial Tileset_38: -1761475837
+      Bloblob Demo Tutorial Tileset_39: -630967923
+      Bloblob Demo Tutorial Tileset_4: -2897248211017570868
+      Bloblob Demo Tutorial Tileset_40: 1998186918
+      Bloblob Demo Tutorial Tileset_41: -973972389
+      Bloblob Demo Tutorial Tileset_42: 2024676875
+      Bloblob Demo Tutorial Tileset_43: 1137625114
+      Bloblob Demo Tutorial Tileset_44: -465672845
+      Bloblob Demo Tutorial Tileset_45: 1508310503
+      Bloblob Demo Tutorial Tileset_46: 1592870437
+      Bloblob Demo Tutorial Tileset_47: -1932508287
+      Bloblob Demo Tutorial Tileset_48: -1308390688
+      Bloblob Demo Tutorial Tileset_49: 1707564482
+      Bloblob Demo Tutorial Tileset_5: 192122763
+      Bloblob Demo Tutorial Tileset_50: 596556346
+      Bloblob Demo Tutorial Tileset_51: 328155287
+      Bloblob Demo Tutorial Tileset_52: 325914202
+      Bloblob Demo Tutorial Tileset_53: 698294451
+      Bloblob Demo Tutorial Tileset_54: 144037238
+      Bloblob Demo Tutorial Tileset_55: 677451928
+      Bloblob Demo Tutorial Tileset_56: 208959269
+      Bloblob Demo Tutorial Tileset_57: 447331447
+      Bloblob Demo Tutorial Tileset_58: 392147592
+      Bloblob Demo Tutorial Tileset_6: -1031826071
+      Bloblob Demo Tutorial Tileset_7: 2099819128
+      Bloblob Demo Tutorial Tileset_8: -1811753035
+      Bloblob Demo Tutorial Tileset_9: 1580441026
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
