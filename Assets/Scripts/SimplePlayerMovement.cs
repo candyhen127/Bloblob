@@ -23,7 +23,7 @@ public class SimplePlayerMovement : MonoBehaviour {
     public float fallMultiplier = 3f;
 
     // ground and wall checks
-    private bool isGrounded;
+    public bool isGrounded;
 
     public Transform groundCheck;
     public float groundCheckRadius = 0.25f;
@@ -59,7 +59,7 @@ public class SimplePlayerMovement : MonoBehaviour {
 
         jumpReleased = Input.GetKeyUp(KeyCode.Space) || Input.GetKeyUp(KeyCode.W);
 
-        if (jumpPressed && rb.linearVelocity.y == 0f && isGrounded) {
+        if (jumpPressed && rb.linearVelocity.y <= 0f && isGrounded) {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
         }
 
