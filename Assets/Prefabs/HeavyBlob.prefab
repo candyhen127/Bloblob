@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6002167434538030307}
   - component: {fileID: 1039192112710321011}
   - component: {fileID: 8601944852145833159}
+  - component: {fileID: 967678113681030574}
   m_Layer: 6
   m_Name: HeavyBlob
   m_TagString: Blob
@@ -152,3 +153,16 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.5
+--- !u!114 &967678113681030574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5690208724812347656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5de70c25ea84b6b458db42d41503d343, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ammoCost: 3

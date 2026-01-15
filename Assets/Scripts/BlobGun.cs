@@ -39,7 +39,13 @@ public class BlobGun : MonoBehaviour
     TextMeshProUGUI ammoCounter;
 
     [SerializeField]
+    private List<GameObject> blobTypes;
+
+    [SerializeField]
     private List<GameObject> shotBlobs;
+
+    [SerializeField]
+    private SpriteRenderer playerSprite;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -61,10 +67,17 @@ public class BlobGun : MonoBehaviour
             sprite.flipY = false;
         }
         
+        if (Input.GetKeyDown(KeyCode.Alpha1)) {
+            bulletPrefab = blobTypes[0];
+        }
         
+        if (Input.GetKeyDown(KeyCode.Alpha2)) {
+            bulletPrefab = blobTypes[1];
+        }
+
         if(Input.GetButtonDown("Fire1"))
         {
-            if(ammo > 0)
+            if(ammo - bulletPrefab.GetComponent<Blob>().ammoCost >= 0)
             {
                 shoot();
             }
@@ -93,10 +106,12 @@ public class BlobGun : MonoBehaviour
         if(pangle > 90 || pangle < -90)
         {
             rb.position = leftHand.position;
+            playerSprite.flipX = true;
         }
         else if (pangle <=90 || pangle >= -90)
         {
             rb.position = rightHand.position;
+            playerSprite.flipX = false;
         }
     }
 
@@ -104,6 +119,6 @@ public class BlobGun : MonoBehaviour
         GameObject blob = Instantiate(bulletPrefab, shootPoint.position, shootPoint.rotation);
         blob.GetComponent<Rigidbody2D>().linearVelocity = shootPoint.up * 10;
         shotBlobs.Add(blob);
-        ammo--;
+        ammo -= bulletPrefab.GetComponent<Blob>().ammoCost;
     }
 }
