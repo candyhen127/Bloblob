@@ -22,7 +22,7 @@ public class BlobGun : MonoBehaviour
     [SerializeField]
     private Camera cam;
     [SerializeField]
-    private Rigidbody2D rb;
+    private Transform transform;
     [SerializeField]
     private SpriteRenderer sprite;
     
@@ -46,6 +46,8 @@ public class BlobGun : MonoBehaviour
 
     [SerializeField]
     private SpriteRenderer playerSprite;
+    [SerializeField]
+    private Animator playerAnimator;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -89,12 +91,13 @@ public class BlobGun : MonoBehaviour
             ammo = maxAmmo;
         }
         ammoCounter.text = ammo.ToString() + "/" + maxAmmo.ToString();
+        playerAnimator.SetFloat("AmmoCount", ammo/(float)maxAmmo);
     }
 
     void FixedUpdate()
     {
         
-        Vector2 direction = mousePos - rb.position;
+        Vector2 direction = mousePos - (Vector2) transform.position;
         angle = Mathf.Atan2(direction.y, direction.x)*Mathf.Rad2Deg;
         //Vector2 centerPos = (center.x, center.y);
         Vector2 pdirection;
@@ -102,15 +105,16 @@ public class BlobGun : MonoBehaviour
         pdirection.y = mousePos.x - center.position.y;
         pangle = Mathf.Atan2(pdirection.y, pdirection.x)*Mathf.Rad2Deg;
 
-        rb.rotation = angle;
+        
+        transform.rotation = Quaternion.Euler(0f, 0f, angle);;
         if(pangle > 90 || pangle < -90)
         {
-            rb.position = leftHand.position;
+            transform.position = leftHand.position;
             playerSprite.flipX = true;
         }
         else if (pangle <=90 || pangle >= -90)
         {
-            rb.position = rightHand.position;
+            transform.position = rightHand.position;
             playerSprite.flipX = false;
         }
     }
